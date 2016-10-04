@@ -24,6 +24,9 @@ In order to run the `redirect` application, you will need to modify the `config.
   "redirects": {
     "localhost": {
       "host": "http://pksunkara.github.com",
+      "headers": {
+        "Cache-Control": "public,max-age=600"
+      },
       "code": 302
     },
     "*": {

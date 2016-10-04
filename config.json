@@ -3,6 +3,9 @@
   "redirects": {
     "localhost": {
       "host": "http://pksunkara.github.com",
+      "headers": {
+        "Cache-Control": "public,max-age=600"
+      },
       "code": 302
     },
     "*": {
